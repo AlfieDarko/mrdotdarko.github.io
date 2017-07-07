@@ -1,0 +1,44 @@
+body {
+  /*font-family: 'Spectral', serif;*/
+/*font-family: 'Merriweather', serif;
+font-family: 'Lora', serif;
+font-family: 'Crimson Text', serif;
+font-family: 'Dancing Script', cursive;*/
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+background: white;
+margin:inherit;
+}
+
+body, html {
+    height: 100%;
+}
+
+
+.studioimg{
+  background-image: url('/images/6578925159_d793a50d49_o.jpg');
+
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.headercontainer{
+  width:100%;
+  height: 50px;
+  position:fixed;
+  /*top:0px;*/
+  background: white;
+  margin: 0;
+}
+
+.headermenu{
+  margin-top: 8px;
+  margin-left: 60px;
+  font-size: 26px;
+  letter-spacing: 1px;
+  font-family: 'Roboto';
+}
