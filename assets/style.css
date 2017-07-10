@@ -29,7 +29,7 @@ body, html {
   height: 50px;
   position:fixed;
   /*top:0px;*/
-  background: white;
+  background: #AA1111;
   margin: 0;
   border-bottom-style: dotted;
 }
@@ -37,6 +37,7 @@ body, html {
 .headermenu{
   margin-top: 8px;
   margin-left: 60px;
+  color: white;
   font-size: 26px;
   letter-spacing: 1px;
   font-family: 'Open Sans';
@@ -77,6 +78,11 @@ hr.style-two {
 	align-items: center;
 	min-height: 20px;
 	/*padding: 0 11px;*/
-	font-size: 46px;
-  margin-left: 10px;
+	font-size: 36px;
+  /*margin-left: 5px;*/
+}
+
+.h5stuff{
+  font-family: Noto Sans;
+  font-size: 12px;
 }
