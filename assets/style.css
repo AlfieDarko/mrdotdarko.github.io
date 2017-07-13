@@ -6,8 +6,8 @@ font-family: 'Crimson Text', serif;
 font-family: 'Dancing Script', cursive;*/
 font-family: 'Roboto', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
-
-background: white;
+font-size: 16px;
+background: #f1f1ee;
 margin:inherit;
 }
 
@@ -29,7 +29,7 @@ body, html {
   height: 50px;
   position:fixed;
   /*top:0px;*/
-  background: #AA1111;
+  background: white;
   margin: 0;
   border-bottom-style: dotted;
 }
@@ -37,7 +37,7 @@ body, html {
 .headermenu{
   margin-top: 8px;
   margin-left: 60px;
-  color: white;
+  color: black;
   font-size: 26px;
   letter-spacing: 1px;
   font-family: 'Open Sans';
@@ -72,8 +72,8 @@ hr.style-two {
 .heading{
   /*position: sticky;*/
 	/*top: 84px;*/
-	background-color: #AA1111;
-	color: white;
+	background-color: white;
+	color: black;
 	/*display: flex;*/
 	align-items: center;
 	min-height: 20px;
