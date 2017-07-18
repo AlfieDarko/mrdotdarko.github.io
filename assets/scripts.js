@@ -16,8 +16,9 @@ function playSound(e) {
 function removeTransition(e) {
   const key = document.querySelector(`.key[data-key="${e.which}"]`);
 
-  if (!key) return;
-
+  if (!key) {
+    return;
+  }
   key.classList.remove('playing');
 }
 
